@@ -3,18 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	const button = document.getElementById('load-data-btn');
 	const output = document.getElementById('data-output');
 
+	debugger;
+
 	button.addEventListener('click', async () => {
 		try {
-			debugger;
 			const response = await fetch(
-				'https://jsonplaceholder.typicode.com/users'
+				'https://jsonplaceholder.typicode.com/userss'
 			);
 			const data = await response.json();
-
-			console.log({ data });
-			console.log({ cats: '123' });
-
-			const users = data;
 
 			console.log('Loaded users:', users);
 
