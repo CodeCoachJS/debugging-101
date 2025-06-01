@@ -1,0 +1,15 @@
+#load-data-btn {
+	background-color: tomato;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+
+	top: -100px;
+	left: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 20px;
+}
